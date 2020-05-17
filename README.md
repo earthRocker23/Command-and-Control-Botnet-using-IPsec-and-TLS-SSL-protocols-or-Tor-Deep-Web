@@ -6,7 +6,7 @@ Distributed System with a GUI written in Java.
 Wrote a Python script using Scapy to DDoS the victims.
 Used TLS/SSL, IPsec and Tor Network.
 
-* * * Phase 1 * * * *
+* * Phase 1
 
 The Botmaster is using SSL/TLS in order to communicate with the Command and Control Server (C&C).
 The C&C forwarding the Botmaster’s requests to the Bots using SSL/TLS.
@@ -14,7 +14,7 @@ At the end the Bots are receiving the requests, and they start attacking to the 
 As an extra layer of security the Botmaster is using IPsec to communicate with the C&C in order to hide his real IP address.
 The SSL/TLS built it using OpenSSL.
 
-* * * Phase 2 * * * 
+* * Phase 2
 
 The Botmaster is using TOR dark web in order to communicate with the Command and Control Server (C&C). The C&C forwarding the Botmaster’s requests to the Bots using a custom SSL/TLS channel. At the end the Bots are receiving the requests, and they start attacking to the victims using a python script in order to DDoS the victims.
 
