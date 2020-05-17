@@ -18,9 +18,9 @@ The SSL/TLS built it using OpenSSL.
 
 The Botmaster is using TOR dark web in order to communicate with the Command and Control Server (C&C). The C&C forwarding the Botmaster’s requests to the Bots using a custom SSL/TLS channel. At the end the Bots are receiving the requests, and they start attacking to the victims using a python script in order to DDoS the victims.
 
-The custom SSL/TLS built using these steps:
+The custom SSL/TLS built using these steps:  
 
-C&C:
+C&C: <br/>
 The server owns a self-signed Certificate
 Step 1:
 Bot: Hello message
